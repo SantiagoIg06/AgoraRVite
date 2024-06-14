@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <form onSubmit={onSubmit}>
-        <input value={valorInput} onChange={evento => onChange(evento)} />
+        <input value={getGifs} onChange={evento => onChange(evento)} />
         <button type="submit">Buscar</button>
       </form>
       <p>{valorInput}</p>
