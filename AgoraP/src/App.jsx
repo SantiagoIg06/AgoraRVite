@@ -22,11 +22,11 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Editar <code> src/App.jsx </code> y guardar para probar HMR
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        Haga clic en los logotipos de Vite y React para obtener más información.
       </p>
     </>
   )
