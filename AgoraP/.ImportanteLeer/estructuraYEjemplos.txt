@@ -1,10 +1,22 @@
 ESTRUCTURA
 
-mi-app/
-├── .ImpostanteLeer/
+AgoraP/
+├── .ImportanteLeer/
+├── crud/
+│   ├── api/
+│   │   └── Users.php       // Aquí estarían los controladores CRUD en PHP
+│   ├── lib/
+│   │   └── ThunderClient.php
+│   ├── routes/
+│   │   └── web.php
+│   ├── index.php
+│   └── ...
 ├── node_modules/
 ├── public/
 │   └── index.html
+│   └── vite.svg
+│   └── imagenes/
+│   │   └── ...
 ├── src/
 │   ├── components/
 │   │   ├── UserList.jsx
@@ -22,15 +34,6 @@ mi-app/
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
-├── crud/
-│   ├── api/
-│   │   └── Users.php       // Aquí estarían los controladores CRUD en PHP
-│   ├── lib/
-│   │   └── ThunderClient.php
-│   ├── routes/
-│   │   └── web.php
-│   ├── index.php
-│   └── ...
 ├── .gitignore
 ├── index.html
 ├── package.json
