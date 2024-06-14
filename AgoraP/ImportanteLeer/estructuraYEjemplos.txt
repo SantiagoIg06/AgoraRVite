@@ -3,24 +3,12 @@ ESTRUCTURA
 mi-app/
 ├── node_modules/
 ├── public/
+│   └── index.html
 ├── src/
-│   ├── api/
-│   │   └── api.js
-│   ├── assets/
-│   │   └── logo.svg
 │   ├── components/
-│   │   ├── common/
-│   │   │   └── Navbar.jsx
-│   │   ├── admin/
-│   │   │   ├── AdminDashboard.jsx
-│   │   │   └── AdminSettings.jsx
-│   │   ├── user/
-│   │   │   ├── UserDashboard.jsx
-│   │   │   └── UserProfile.jsx
-│   │   ├── company/
-│   │   │   ├── CompanyDashboard.jsx
-│   │   │   └── CompanyProfile.jsx
-│   │   └── NoRolePage.jsx
+│   │   ├── UserList.jsx
+│   │   ├── UserForm.jsx
+│   │   └── ...
 │   ├── hooks/
 │   │   └── useExampleHook.js
 │   ├── pages/
@@ -28,13 +16,26 @@ mi-app/
 │   │   └── About.jsx
 │   ├── styles/
 │   │   └── App.css
+│   ├── api/
+│   │   └── api.js          // Aquí se encuentran las funciones CRUD
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
+├── crud/
+│   ├── api/
+│   │   └── Users.php       // Aquí estarían los controladores CRUD en PHP
+│   ├── lib/
+│   │   └── ThunderClient.php
+│   ├── routes/
+│   │   └── web.php
+│   ├── index.php
+│   └── ...
 ├── .gitignore
 ├── index.html
 ├── package.json
 └── vite.config.js
+
+
 
 
 
