@@ -9,8 +9,18 @@ mi-app/
 │   ├── assets/
 │   │   └── logo.svg
 │   ├── components/
-│   │   ├── ExampleComponent.jsx
-│   │   └── Navbar.jsx
+│   │   ├── common/
+│   │   │   └── Navbar.jsx
+│   │   ├── admin/
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   └── AdminSettings.jsx
+│   │   ├── user/
+│   │   │   ├── UserDashboard.jsx
+│   │   │   └── UserProfile.jsx
+│   │   ├── company/
+│   │   │   ├── CompanyDashboard.jsx
+│   │   │   └── CompanyProfile.jsx
+│   │   └── NoRolePage.jsx
 │   ├── hooks/
 │   │   └── useExampleHook.js
 │   ├── pages/
@@ -25,6 +35,7 @@ mi-app/
 ├── index.html
 ├── package.json
 └── vite.config.js
+
 
 
 EN vite.config.js PONER
