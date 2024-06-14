@@ -1,0 +1,38 @@
+ESTRUCTURA
+
+mi-app/
+├── node_modules/
+├── public/
+├── src/
+│   ├── api/
+│   │   └── api.js
+│   ├── assets/
+│   │   └── logo.svg
+│   ├── components/
+│   │   ├── ExampleComponent.jsx
+│   │   └── Navbar.jsx
+│   ├── hooks/
+│   │   └── useExampleHook.js
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── About.jsx
+│   ├── styles/
+│   │   └── App.css
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── index.html
+├── package.json
+└── vite.config.js
+
+
+EN vite.config.js PONER
+
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+});
