@@ -1,0 +1,46 @@
+
+.emp1{
+    font-size: 20px;
+    background-size: 100%;
+    width: 100%;
+    height: 40%;
+    background-image: url('/public/imagenes/usadas/Fondo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.infEmp {
+    margin: 20px;
+    font-size: 19px;
+    width: 28%;
+}
+.empresasParte1, .empresasParte2{
+    display: flex;
+}
+.imgEmp {
+    margin: 2px 20px;
+    width: 85%;
+}
+.contUbic {
+    display: flex;
+    align-content: center;
+}
+.btnMasEmpleos {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.btnMas {
+    background-color: #aaa;
+    border: 2px solid #ff4;
+    border-radius: 15px ;
+    color: #ff4;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    text-align: center;
+}
+.btnMas:hover {
+    background-color: #ff4;
+    color: #aaa;
+    border-color: #aaa;
+}
