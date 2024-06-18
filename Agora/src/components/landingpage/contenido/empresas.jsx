@@ -9,7 +9,7 @@ return (
         <h2>Empleos solicitados</h2>
         <div className="empresasParte1">
             <div className="infEmp">
-                <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+                <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div className="contUbic">
                     <p>CONTACTO: XXXXXXXXXXX </p>
@@ -17,7 +17,7 @@ return (
                 </div>
             </div>
         <div className="infEmp">
-            <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+            <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div className="contUbic">
                 <p>CONTACTO: XXXXXXXXXXX </p>
@@ -25,7 +25,7 @@ return (
             </div>
         </div>
         <div className="infEmp">
-            <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+            <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div className="contUbic">
                 <p>CONTACTO: XXXXXXXXXXX </p>
@@ -33,7 +33,7 @@ return (
             </div>
         </div>
         <div className="infEmp">
-            <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+            <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
             <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
             <div className="contUbic">
                 <p>CONTACTO: XXXXXXXXXXX </p>
@@ -44,7 +44,7 @@ return (
         <br />
         <div className="empresasParte2">
             <div className="infEmp">
-                <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+                <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div className="contUbic">
                     <p>CONTACTO: XXXXXXXXXXX </p>
@@ -52,7 +52,7 @@ return (
                 </div>
             </div>
             <div className="infEmp">
-                <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+                <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div className="contUbic">
                     <p>CONTACTO: XXXXXXXXXXX </p>
@@ -60,7 +60,7 @@ return (
                 </div>
             </div>
             <div className="infEmp">
-                <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+                <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div className="contUbic">
                     <p>CONTACTO: XXXXXXXXXXX </p>
@@ -68,7 +68,7 @@ return (
                 </div>
             </div>
             <div className="infEmp">
-                <img className="imgEmp" src="./imagenes/usadas/Trabajos.jpg" alt="Empresas" />
+                <img className="imgEmp" src="/assets/images/usadas/Trabajos.jpg" alt="Empresas" />
                 <p>EMPLEO A REALIZAR: XXXXXXXXXXX</p>
                 <div className="contUbic">
                     <p>CONTACTO: XXXXXXXXXXX </p>

@@ -7,10 +7,10 @@ return (
     <nav className="fixed-top navcompleta navbar navbar-expand-lg navbar-light bg-body-tertiary">
         <div className="container">
             <a>
-                <img className="imgMode" src="./imagenes/usadas/modeDarkOrWhite.png" alt="Modo de visualizacion" />
+                <img className="imgMode" src="../assets/images/usadas/modeDarkOrWhite.png" alt="Modo de visualizacion" />
             </a>
             <a className="navbar-brand me-2" href="../index.html">
-                <img className="logos" src="./imagenes/logosSimbolos/logo2.png" alt="Logo" height="16" loading="lazy" style={{marginTop: "-1px"}} />
+                <img className="logos" src="../assets/images/logosSimbolos/logo2.png" alt="Logo" height="16" loading="lazy" style={{marginTop: "-1px"}} />
             </a>
             <div className="collapse navbar-collapse" id="navbarButtonsExample">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
