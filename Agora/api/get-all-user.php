@@ -1,5 +1,5 @@
 <?php
-include("../crud/crud.php");
+include("../class/crud.php");
 header("Access-Control-Allow-Origin: *");
 header("Content-type:application/json");
 

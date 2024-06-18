@@ -1,5 +1,5 @@
 <?php
-include("../crud/crud.php");
+include("../class/crud.php");
 header("Access-Control-Allow-Origin: *");
 header("Content-Type: application/json");
 
@@ -22,7 +22,7 @@ $foto_perfil = $data["foto_perfil"];
 $idRol = $data["idRol"];
 
 
-$sql = "INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento, idRol) VALUES ('$nombre', '$apellido', '$correo', '$contraseña', '$fecha_nacimiento', '$foto_perfil', '$idRol')";
+$sql = "INSERT INTO usuario (nombre, apellido, correo, contraseña, fecha_nacimiento, foto_perfil, idRol) VALUES ('$nombre', '$apellido', '$correo', '$contraseña', '$fecha_nacimiento', '$foto_perfil', '$idRol')";
 $res = $crud->create($sql);
 
 

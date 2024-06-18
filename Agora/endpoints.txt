@@ -1,7 +1,6 @@
-http://localhost:5173/AgoraP/crud/
+http://localhost/AgoraRVite/Agora/api/
 
-
-http://localhost/Agora/api/create-user.php
+http://localhost/AgoraRVite/Agora/api/create-user.php
 
 {
 "nombre": "maria",
@@ -9,18 +8,19 @@ http://localhost/Agora/api/create-user.php
 "correo": "maria@gmail.com",
 "contraseña": "123",
 "fecha_nacimiento": "1996-03-08",
+"foto_perfil": "Null",
 "idRol":"1"
 }
 
-http://localhost/Agora/api/update-user.php?id=YOUR_ID
+http://localhost/AgoraRVite/Agora/api/update-user.php?id=YOUR_ID
 
-http://localhost/Agora/api/delete-user.php?id=YOUR_ID
+http://localhost/AgoraRVite/Agora/api/delete-user.php?id=YOUR_ID
 
-http://localhost/Agora/api/get-all-user.php
+http://localhost/AgoraRVite/Agora/api/get-all-user.php
 
-http://localhost/Agora/api/get-user.php?id=YOUR_ID
+http://localhost/AgoraRVite/Agora/api/get-user.php?id=YOUR_ID
 
-http://localhost/Agora/api/login-user.php
+http://localhost/AgoraRVite/Agora/api/login-user.php
 
 {
 "correo": "...",

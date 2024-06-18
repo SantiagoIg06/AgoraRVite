@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const END_POINT = "http://localhost/Agora/api/login-user.php"
+const END_POINT = "http://localhost/AgoraRVite/Agora/api/login-user.php"
 
 export const getLogin =async(objeto) => {
 
