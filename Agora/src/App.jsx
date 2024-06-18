@@ -4,13 +4,13 @@ import './styles.css';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Navegation from "../public/navegation";
 import Landingpage from "./components/landingpage/Landingpage";
-import { useEffect, useState } from 'react'
-import { Routes, Route } from "react-router-dom"
-import { getUser } from './services/usuario.js' // alimentado de una archivo
-import { MyContext } from '/src/context/myContext.js'
-import { useApiUsuarios } from './hooks/useApiUsuarios.js'
+import { useEffect, useState } from 'react';
+import { Routes, Route } from "react-router-dom";
+import { MyContext } from '/src/context/myContext.js';
+import { useApiUsuarios } from '/src/hooks/useApiUsuarios.js';
 import { Button, Box } from '@mui/material/';
 import Loging from './components/login/Login.jsx'
+
 function App() {
 
   const [user, setUser] = useState(null)
@@ -33,7 +33,6 @@ function App() {
 
 
         {user ? (<Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-          <MenuPrincipal />
           <Navegation />
           <Landingpage />
           <Footer /> 
