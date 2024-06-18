@@ -2,10 +2,11 @@ import React from 'react';
 import {useEffect , useState} from 'react'
 import {TextField , Button, Box} from '@mui/material/';
 
-import {getLogin} from '../services/apiLogin.js'
+import {getLogin} from '/src/services/apiLogin.js'
 
 import { useContext } from 'react';
-import { MyContext } from "../context/myContex.js";
+import { MyContext } from "/src/context/myContext.js";
+
 
 
 export default function Loging() {
